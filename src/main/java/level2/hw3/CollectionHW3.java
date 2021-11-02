@@ -15,14 +15,6 @@ public class CollectionHW3 {
 //                System.out.println("element: " + s + ", count: " + Collections.frequency(list, s));
 //        }
 
-        HashMap<String, Integer> humansNumbersHashMap = new HashMap<>();
-        humansNumbersHashMap.put("Сазонов", 445533);
-        humansNumbersHashMap.put("Ковалев", 553322);
-        humansNumbersHashMap.put("Сазонов", 444444);
-        System.out.println("Номер телефона:  " + humansNumbersHashMap.get("Ковалев"));
-        System.out.println(humansNumbersHashMap);
-
-
 
 
     }
