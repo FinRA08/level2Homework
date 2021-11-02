@@ -15,7 +15,24 @@ public class CollectionHW3 {
 //                System.out.println("element: " + s + ", count: " + Collections.frequency(list, s));
 //        }
 
+        Phone Frost = new Phone();
+        Frost.setName("Frost");
+        Frost.setNumber("222222");
+
+        Phone Smit = new Phone();
+        Smit.setName("Smit");
+        Smit.setNumber("333333");
+
+        Phone Tor = new Phone();
+        Tor.setName("Tor");
+        Tor.setNumber("444455");
 
 
+        TelephoneDirectory phoneBook = new TelephoneDirectory();
+        phoneBook.add(Frost);
+        phoneBook.add(Smit);
+        phoneBook.add(Tor);
+
+        System.out.println(phoneBook);
     }
 }
