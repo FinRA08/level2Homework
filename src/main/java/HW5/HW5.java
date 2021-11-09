@@ -8,7 +8,7 @@ public class HW5 {
         secondMethod();
         firstMethod();
     }
-
+    //Методы
     public static  void firstMethod() {
         int size = 10_000_000;
         int[] arr = new int[size];
