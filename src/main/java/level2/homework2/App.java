@@ -13,7 +13,7 @@ public class App {
 
 
     private static void PassArray() throws MyArraySizeException {
-        String[][] arrayw = new String[4][4];
+        String[][] arrayw = new String[5][5];
         PrintA(arrayw);
     }
 
